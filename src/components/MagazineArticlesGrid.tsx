@@ -3,6 +3,7 @@ import MagazineArticleCard from './MagazineArticleCard'
 const articles = [
   // Row 1
   {
+    slug: 'hope-dies-last',
     title: 'Hope dies last',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -12,6 +13,7 @@ const articles = [
     image: '/images/magazine/mag-article-1.png',
   },
   {
+    slug: 'dont-close-your-eyes',
     title: "Don't close your eyes",
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -21,6 +23,7 @@ const articles = [
     image: '/images/magazine/mag-article-2.png',
   },
   {
+    slug: 'the-best-art-museums',
     title: 'The best art museums',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -31,6 +34,7 @@ const articles = [
   },
   // Row 2
   {
+    slug: 'the-devil-is-the-details',
     title: 'The devil is the details',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -40,6 +44,7 @@ const articles = [
     image: '/images/magazine/mag-article-4.png',
   },
   {
+    slug: 'an-indestructible-hope',
     title: 'An indestructible hope',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -49,6 +54,7 @@ const articles = [
     image: '/images/magazine/mag-article-5.png',
   },
   {
+    slug: 'street-art-festival',
     title: 'Street art festival',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -59,6 +65,7 @@ const articles = [
   },
   // Row 3
   {
+    slug: 'the-chains-of-our-lives',
     title: 'The chains of our lives',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -68,6 +75,7 @@ const articles = [
     image: '/images/magazine/mag-article-7.png',
   },
   {
+    slug: 'through-the-eyes-of-street-artists',
     title: 'Through the eyes of street artists',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -77,6 +85,7 @@ const articles = [
     image: '/images/magazine/mag-article-8.png',
   },
   {
+    slug: 'artists-who-want-to-rise-above',
     title: 'Artists who want to rise above',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -87,6 +96,7 @@ const articles = [
   },
   // Row 4
   {
+    slug: 'secret-garden',
     title: 'Secret garden',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -96,6 +106,7 @@ const articles = [
     image: '/images/magazine/mag-article-10.png',
   },
   {
+    slug: 'getting-real',
     title: 'Getting real',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -105,6 +116,7 @@ const articles = [
     image: '/images/magazine/mag-article-11.png',
   },
   {
+    slug: 'most-colorful-places',
     title: 'Most coloful places',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -115,6 +127,7 @@ const articles = [
   },
   // Row 5
   {
+    slug: 'keep-on-smiling',
     title: 'Keep on Smiling',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -124,6 +137,7 @@ const articles = [
     image: '/images/magazine/mag-article-13.png',
   },
   {
+    slug: 'history-of-paper',
     title: 'History of Paper',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -133,6 +147,7 @@ const articles = [
     image: '/images/magazine/mag-article-14.png',
   },
   {
+    slug: 'how-are-you-really',
     title: 'How are you, really?',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -143,6 +158,7 @@ const articles = [
   },
   // Row 6
   {
+    slug: 'beauty-of-colors',
     title: 'Beauty of Colors',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -152,6 +168,7 @@ const articles = [
     image: '/images/magazine/mag-article-16.png',
   },
   {
+    slug: 'colorful-future',
     title: 'Colorful Future',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',
@@ -161,6 +178,7 @@ const articles = [
     image: '/images/magazine/mag-article-17.png',
   },
   {
+    slug: 'only-in-your-heart',
     title: 'Only in Your Heart',
     excerpt: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas dui id ornare arcu odio ut sem. Cras ornare arcu dui vivamus arcu felis bibendum ut. Porttitor leo a diam.',
     author: 'Jakob Gronberg',

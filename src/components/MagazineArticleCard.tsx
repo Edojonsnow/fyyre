@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 interface MagazineArticleCardProps {
   title: string
   excerpt: string
@@ -6,6 +8,7 @@ interface MagazineArticleCardProps {
   duration: string
   label: string
   image: string
+  slug: string
 }
 
 export default function MagazineArticleCard({
@@ -16,8 +19,10 @@ export default function MagazineArticleCard({
   duration,
   label,
   image,
+  slug,
 }: MagazineArticleCardProps) {
   return (
+    <Link to={`/article/${slug}`} className="block" style={{ textDecoration: 'none', color: 'inherit' }}>
     <article
       className="flex flex-col border border-black bg-white"
       style={{
@@ -137,5 +142,6 @@ export default function MagazineArticleCard({
         </div>
       </div>
     </article>
+    </Link>
   )
 }

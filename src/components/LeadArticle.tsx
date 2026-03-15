@@ -1,3 +1,5 @@
+import { Link } from 'react-router-dom'
+
 export default function LeadArticle() {
   return (
     <section
@@ -5,6 +7,7 @@ export default function LeadArticle() {
       style={{ fontFamily: "'General Sans', 'DM Sans', sans-serif" }}
     >
       {/* Lead article container — column, gap 48px */}
+      <Link to="/article/dont-close-your-eyes" style={{ textDecoration: 'none', color: 'inherit' }}>
       <div className="flex flex-col" style={{ gap: '48px' }}>
         {/* Top row: title (left) + text/meta (right) — row, gap 48px, stretch */}
         <div className="flex flex-col lg:flex-row items-stretch" style={{ gap: '48px' }}>
@@ -99,6 +102,7 @@ export default function LeadArticle() {
           />
         </div>
       </div>
+      </Link>
     </section>
   )
 }
